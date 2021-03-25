@@ -1,0 +1,4 @@
+Brian | potato | Admin | 
+Bob | paint | User | 
+Steve | fhfjfyifjv | User
+Liam | hello | Admin
