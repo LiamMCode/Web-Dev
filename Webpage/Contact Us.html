@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Halloween Costume Shop</title> <!-- title is shown in the tab of the web browser -->
+		<link rel="stylesheet" href="css/stylesheet1.css"/> <!-- link to the css stylesheet for the entire website-->
+	</head>
+<body>
+<ul>
+  <li><a class="active" href="Home.html">Home</a></li> <!-- the links for the menu bar along the top of the webpage -->
+  <li><a href="Costumes.html">Costumes</a></li>
+  <li><a href="Accessories.html">Accessories</a></li>
+  <li><a href="Contact Us.html">Contact Us</a></li>
+</ul>
+<br> </br> <!-- breaks to help with the spacing within the webpage -->
+<div class="content">
+	<h1> Contact Us </h1>
+	<br> </br> <!-- using break tags for spacing within the web page -->
+	<h1> <b> Phone </b> </h1> <!-- heading tag and a bold tag -->
+	<h2> <i> 07506350597 </i> </h2> <!-- heading tag and a italic tag -->
+	<br> </br>
+	<h1> <b> Email </b> </h1>
+	<h2> <i> HalloweenCostumeShop@HCS.com </i> </h2>
+	<br> </br>
+	<h1> <b> Facebook </b> </h1>
+	<h2> <i> Search HalloweenCostumeShop </i> </h2>
+	<br> </br>
+	<h1> <b> Twitter </b> </h1>
+	<h2> <i> @HalloweenCostumeShop <i> </h2>
+</div>
+<br> </br> <!-- using break tags for spacing within the web page -->
+<button type="button" 
+onclick="myFunction()"> Display Width & Height of Browser.</button> 
+<p id="time"></p>
+<script> <!-- the JavaScript for the window size -->
+	function myFunction() 
+	{
+			var w = window.innerWidth
+			|| document.documentElement.clientWidth
+			|| document.body.clientWidth;
+
+			var h = window.innerHeight
+			|| document.documentElement.clientHeight
+			|| document.body.clientHeight;
+
+			var x = document.getElementById("time");
+			x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
+	}
+</script>
+</body>
+</html>

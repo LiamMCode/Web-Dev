@@ -1,0 +1,58 @@
+*,html
+{
+	margin: 0px; 
+	padding: 0px;
+	border; none;
+}
+body
+{
+	width: 100%; /*the width and height of the web page*/
+	height: 100%;
+	text-align: center; /* where the text will be aligned on the web page*/
+	background-image: url(https://4.bp.blogspot.com/-8H5IFQdMEVE/UnNdzwpUqeI/AAAAAAAATMA/0olDSxOkUEM/s0/Halloween.jpg); /*background image of the web page*/
+	color: white; 
+}
+ul { /* start of the css for the menu bar*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;/*where the menu will be positioned on the page*/
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {/*controls the hovering acspect of the menu*/
+	background-color: #111; /* end of the css for the menu bar*/
+}
+div.image /*code for the styling of the image on the Home page*/
+{
+    width: 80%; /* used to centralise the image */
+    border: 0px;
+    padding: 0px; 
+    margin: auto;
+}
+div.content/*styling for the headers on each page*/
+{
+	margin-top: 50px;
+}
+div.imgContainer  {
+	float: left;/*styling for the pictures on the costume and accessories pages*/ 
+	width: 200px;
+	margin: 10px;
+}
+
+div.imgContainer img {
+	width: 200px; /* width of image*/
+    vertical-align: text-top;
+}
